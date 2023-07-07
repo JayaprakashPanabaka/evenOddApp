@@ -29,7 +29,7 @@ class EvenOddApp extends Component {
       <div className="bg-container">
         <div className="main-container">
           <h1 className="heading">Count {count}</h1>
-          <h4 className="heading4">Count is {count % 2 === 0 ? num : 'Odd'}</h4>
+          <p className="heading4">Count is {count % 2 === 0 ? num : 'Odd'}</p>
           <button onClick={this.onIncrement} type="button" className="btn">
             Increment
           </button>
