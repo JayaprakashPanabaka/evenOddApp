@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.main-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 75vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #0f172a;
+}
+
+.heading4 {
+  font-size: 1.5rem;
+  color: #334155;
+  font-weight: 400;
+}
+
+.btn {
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #334155;
+}
+
+.btn:hover {
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+.para {
+  color: #1e293b;
+  font-size: 12px;
+}
